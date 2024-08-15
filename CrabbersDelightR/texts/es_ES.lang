@@ -35,6 +35,9 @@ item.crabbersdelight:cooked_glow_squid_tentacles=Tentáculos de calamar luminisc
 item.crabbersdelight:raw_frog_leg=Pata de rana cruda
 item.crabbersdelight:cooked_frog_leg=Pata de rana cocida
 
+item.crabbersdelight:pufferfish_slice=Rodaja de pez globo cruda
+item.crabbersdelight:cooked_pufferfish_slice=Rodaja de pez globo cocida
+
 
 tile.crabbersdelight:crab_trap.name=Trampa para cangrejos
 tile.crabbersdelight:crab_barrel.name=Barril de cangrejos

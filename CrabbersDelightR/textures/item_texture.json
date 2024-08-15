@@ -91,6 +91,12 @@
     },
     "crabbersdelight:cooked_frog_leg": {
       "textures": "textures/items/cooked_frog_leg"
+    },
+    "crabbersdelight:pufferfish_slice": {
+      "textures": "textures/items/pufferfish_slice"
+    },
+    "crabbersdelight:cooked_pufferfish_slice": {
+      "textures": "textures/items/cooked_pufferfish_slice"
     }
   }
 }

@@ -1,2 +1,3 @@
 scriptevent farmersdelight:cutting_board_recipe minecraft:tropical_fish
+scriptevent farmersdelight:cutting_board_recipe minecraft:pufferfish
 scoreboard objectives remove farmersdelight_crabbersdelight_cutting_board

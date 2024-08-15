@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crabbersdelight:cooked_pufferfish_slice"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "crabbersdelight:pufferfish_slice",
+        "output": "crabbersdelight:cooked_pufferfish_slice"
+    }
+}

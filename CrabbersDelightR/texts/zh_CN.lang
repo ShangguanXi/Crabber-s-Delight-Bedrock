@@ -11,7 +11,7 @@ item.crabbersdelight:clam=蛤蜊
 item.crabbersdelight:raw_clam_meat=生蛤蜊肉
 item.crabbersdelight:cooked_clam_meat=熟蛤蜊肉
 item.crabbersdelight:pearl=珍珠
-item.crabbersdelight:kelp_shake=海带汁
+item.crabbersdelight:kelp_shake=海带奶昔
 item.crabbersdelight:crab_cakes=蟹饼
 item.crabbersdelight:crab_legs=蟹腿
 item.crabbersdelight:cooked_tropical_fish=熟热带鱼
@@ -34,6 +34,9 @@ item.crabbersdelight:cooked_glow_squid_tentacles=熟荧光鱿鱼须
 
 item.crabbersdelight:raw_frog_leg=生青蛙腿
 item.crabbersdelight:cooked_frog_leg=熟青蛙腿
+
+item.crabbersdelight:pufferfish_slice=河豚片
+item.crabbersdelight:cooked_pufferfish_slice=熟河豚片
 
 tile.crabbersdelight:crab_trap.name=Crab Trap
 tile.crabbersdelight:crab_barrel.name=桶装螃蟹
