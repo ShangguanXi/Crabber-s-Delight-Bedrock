@@ -12,11 +12,6 @@
           "default": "crabbersdelight:crab_legs"
         }
       },
-      "minecraft:tags": {
-        "tags": [
-          "farmersdelight:can_cook"
-        ]
-      },
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 1.6
