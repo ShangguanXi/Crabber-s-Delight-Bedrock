@@ -1,11 +1,11 @@
 pack.description=This addon is ported based on the original Java Edition mod Crabber's Delight and this work is licensed under the MIT License. For FarmersDelightv2.0.0+
 pack.name=Crabber's Delight
 
-item.crabbersdelight:raw_crab=Raw Crab
+item.crabbersdelight:raw_crab=Crab
 item.crabbersdelight:cooked_crab=Cooked Crab
-item.crabbersdelight:raw_clawster=Raw Clawster
+item.crabbersdelight:raw_clawster=Clawster
 item.crabbersdelight:cooked_clawster=Cooked Clawster
-item.crabbersdelight:raw_shrimp=Raw Shrimp
+item.crabbersdelight:raw_shrimp=Shrimp
 item.crabbersdelight:cooked_shrimp=Cooked Shrimp
 item.crabbersdelight:clam=Clam
 item.crabbersdelight:raw_clam_meat=Raw Clam
