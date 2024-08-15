@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:block": {
         "description": {
-            "identifier": "crabbersdelight:clawster_barrel",
+            "identifier": "crabbersdelight:squid_barrel",
             "menu_category": {
                 "category": "items",
                 "group": "itemGroup.name.barrel"
@@ -11,7 +11,7 @@
         "components": {
             "minecraft:material_instances": {
                 "up": {
-                    "texture": "clawster_barrel_top"
+                    "texture": "squid_barrel_top"
                 },
                 "*": {
                     "texture": "barrel_side"

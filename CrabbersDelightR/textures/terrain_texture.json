@@ -54,6 +54,15 @@
 		},
 		"pearl_block": {
 			"textures": "textures/blocks/pearl_block"
+		},
+		"squid_barrel_top": {
+			"textures": "textures/blocks/squid_barrel_top"
+		},
+		"glow_squid_barrel_top": {
+			"textures": "textures/blocks/glow_squid_barrel_top"
+		},
+		"frog_leg_barrel_top": {
+			"textures": "textures/blocks/frog_leg_barrel_top"
 		}
 	}
 }

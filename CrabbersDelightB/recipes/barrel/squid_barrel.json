@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crabbersdelight:squid_barrel"
+        },
+        "key": {
+            "#": {
+                "item": "crabbersdelight:raw_squid_tentacles"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "crabbersdelight:squid_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

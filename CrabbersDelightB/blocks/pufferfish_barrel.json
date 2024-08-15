@@ -4,7 +4,8 @@
         "description": {
             "identifier": "crabbersdelight:pufferfish_barrel",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group": "itemGroup.name.barrel"
             }
         },
         "components": {

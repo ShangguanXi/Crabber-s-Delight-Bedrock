@@ -36,6 +36,9 @@ tile.crabbersdelight:cod_barrel.name=桶装鳕鱼
 tile.crabbersdelight:salmon_barrel.name=桶装鲑鱼
 tile.crabbersdelight:pufferfish_barrel.name=桶装河豚
 tile.crabbersdelight:tropical_fish_barrel.name=桶装热带鱼
+tile.crabbersdelight:squid_barrel.name=桶装鱿鱼
+tile.crabbersdelight:glow_squid_barrel.name=桶装荧光鱿鱼
+tile.crabbersdelight:frog_leg_barrel.name=桶装青蛙腿
 tile.crabbersdelight:pearl_block.name=珍珠块
 
 entity.crabbersdelight:crab.name=螃蟹

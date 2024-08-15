@@ -4,7 +4,8 @@
         "description": {
             "identifier": "crabbersdelight:clam_barrel",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group": "itemGroup.name.barrel"
             }
         },
         "components": {
@@ -26,7 +27,7 @@
                 "explosion_resistance": 3
             },
             "minecraft:geometry": "geometry.block",
-            "tag:wood":{}
+            "tag:wood": {}
         }
     }
 }
