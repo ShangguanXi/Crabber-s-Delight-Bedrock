@@ -85,6 +85,12 @@
     },
     "crabbersdelight:cooked_squid_tentacles": {
       "textures": "textures/items/cooked_squid_tentacles"
+    },
+    "crabbersdelight:raw_frog_leg": {
+      "textures": "textures/items/raw_frog_leg"
+    },
+    "crabbersdelight:cooked_frog_leg": {
+      "textures": "textures/items/cooked_frog_leg"
     }
   }
 }

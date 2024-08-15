@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crabbersdelight:cooked_frog_leg"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "crabbersdelight:raw_frog_leg",
+        "output": "crabbersdelight:cooked_frog_leg"
+    }
+}
