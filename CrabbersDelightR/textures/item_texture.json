@@ -73,6 +73,18 @@
     },
     "crabbersdelight:cooked_tropical_fish_slice": {
       "textures": "textures/items/cooked_tropical_fish_slice"
+    },
+    "crabbersdelight:raw_glow_squid_tentacles": {
+      "textures": "textures/items/raw_glow_squid_tentacles"
+    },
+    "crabbersdelight:cooked_glow_squid_tentacles": {
+      "textures": "textures/items/cooked_glow_squid_tentacles"
+    },
+    "crabbersdelight:raw_squid_tentacles": {
+      "textures": "textures/items/raw_squid_tentacles"
+    },
+    "crabbersdelight:cooked_squid_tentacles": {
+      "textures": "textures/items/cooked_squid_tentacles"
     }
   }
 }

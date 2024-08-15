@@ -26,6 +26,15 @@ item.crabbersdelight:bisque=法式浓汤
 item.crabbersdelight:seafood_gumbo=海鲜烩饭
 item.crabbersdelight:stuffed_nautilus_shell=填馅鹦鹉螺酿
 
+item.crabbersdelight:raw_squid_tentacles=生鱿鱼须
+item.crabbersdelight:cooked_squid_tentacles=熟鱿鱼须
+
+item.crabbersdelight:raw_glow_squid_tentacles=生荧光鱿鱼须
+item.crabbersdelight:cooked_glow_squid_tentacles=熟荧光鱿鱼须
+
+item.crabbersdelight:crabbersdelight.raw_frog_leg=生青蛙腿
+item.crabbersdelight:crabbersdelight.cooked_frog_leg=熟青蛙腿
+
 tile.crabbersdelight:crab_trap.name=Crab Trap
 tile.crabbersdelight:crab_barrel.name=桶装螃蟹
 tile.crabbersdelight:clam_barrel.name=桶装蛤蜊

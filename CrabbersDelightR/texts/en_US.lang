@@ -26,6 +26,15 @@ item.crabbersdelight:bisque=Bisque
 item.crabbersdelight:seafood_gumbo=Seafood Gumbo
 item.crabbersdelight:stuffed_nautilus_shell=Stuffed Nautilus Shell
 
+item.crabbersdelight:raw_squid_tentacles=Raw Squid Tentacles
+item.crabbersdelight:cooked_squid_tentacles=Cooked Squid Tentacles
+
+item.crabbersdelight:raw_glow_squid_tentacles=Raw Glow Squid Tentacles
+item.crabbersdelight:cooked_glow_squid_tentacles=Cooked Glow Squid Tentacles
+
+item.crabbersdelight:raw_frog_leg=Raw Frog Leg
+item.crabbersdelight:cooked_frog_leg=Cooked Frog Leg
+
 tile.crabbersdelight:crab_trap.name=Crab Trap
 tile.crabbersdelight:crab_barrel.name=Crab Barrel
 tile.crabbersdelight:clam_barrel.name=Clam Barrel

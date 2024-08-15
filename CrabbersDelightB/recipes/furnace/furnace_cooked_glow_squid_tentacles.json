@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crabbersdelight:cooked_glow_squid_tentacles"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "crabbersdelight:raw_glow_squid_tentacles",
+        "output": "crabbersdelight:cooked_glow_squid_tentacles"
+    }
+}

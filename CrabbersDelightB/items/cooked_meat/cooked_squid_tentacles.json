@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 7,
+        "saturation_modifier": 0.8
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "crabbersdelight:cooked_squid_tentacles"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "crabbersdelight:cooked_squid"
+        ]
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "crabbersdelight:cooked_squid_tentacles",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.cookedFood"
+      }
+    }
+  }
+}
