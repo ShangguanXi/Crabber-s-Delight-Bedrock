@@ -38,6 +38,9 @@ item.crabbersdelight:cooked_frog_leg=Cooked Frog Leg
 item.crabbersdelight:pufferfish_slice=Raw Pufferfish Slice
 item.crabbersdelight:cooked_pufferfish_slice=Cooked Pufferfish Slice
 
+item.crabbersdelight:can=Can
+item.crabbersdelight:coral_fragments=Coral Fragments
+
 tile.crabbersdelight:crab_trap.name=Crab Trap
 tile.crabbersdelight:crab_barrel.name=Crab Barrel
 tile.crabbersdelight:clam_barrel.name=Clam Barrel

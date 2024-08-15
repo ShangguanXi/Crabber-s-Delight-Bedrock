@@ -97,6 +97,12 @@
     },
     "crabbersdelight:cooked_pufferfish_slice": {
       "textures": "textures/items/cooked_pufferfish_slice"
+    },
+    "crabbersdelight:can": {
+      "textures": "textures/items/can"
+    },
+    "crabbersdelight:coral_fragments": {
+      "textures": "textures/items/coral_fragments"
     }
   }
 }

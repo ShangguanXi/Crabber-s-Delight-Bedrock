@@ -38,6 +38,8 @@ item.crabbersdelight:cooked_frog_leg=Pata de rana cocida
 item.crabbersdelight:pufferfish_slice=Rodaja de pez globo cruda
 item.crabbersdelight:cooked_pufferfish_slice=Rodaja de pez globo cocida
 
+item.crabbersdelight:can=Puede
+item.crabbersdelight:coral_fragments=Fragmentos de Coral
 
 tile.crabbersdelight:crab_trap.name=Trampa para cangrejos
 tile.crabbersdelight:crab_barrel.name=Barril de cangrejos

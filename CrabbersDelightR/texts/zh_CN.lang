@@ -38,6 +38,9 @@ item.crabbersdelight:cooked_frog_leg=熟青蛙腿
 item.crabbersdelight:pufferfish_slice=河豚片
 item.crabbersdelight:cooked_pufferfish_slice=熟河豚片
 
+item.crabbersdelight:can=罐头
+item.crabbersdelight:coral_fragments=珊瑚残片
+
 tile.crabbersdelight:crab_trap.name=Crab Trap
 tile.crabbersdelight:crab_barrel.name=桶装螃蟹
 tile.crabbersdelight:clam_barrel.name=桶装蛤蜊
