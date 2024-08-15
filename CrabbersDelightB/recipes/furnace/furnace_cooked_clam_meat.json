@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crabbersdelight:cooked_clam_meat"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "crabbersdelight:raw_clam_meat",
+        "output": "crabbersdelight:cooked_clam_meat"
+    }
+}

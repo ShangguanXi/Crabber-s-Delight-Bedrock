@@ -1,0 +1,582 @@
+{
+  "is_cooked_fishes": {
+    "type": "image",
+    "texture": "textures/gui/is_cooked_fishes_anim",
+    "uv": "@is_cooked_fishes_anim",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "is_cooked_fishes_anim": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 6,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "is_seafood": {
+    "type": "image",
+    "texture": "textures/gui/is_seafood_anim",
+    "uv": "@is_seafood_anim",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "is_seafood_anim": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 10,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "crabbersdelight_recipe_part_0": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "cooked_crab@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/raw_crab",
+                "$result": "textures/items/cooked_crab"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "cooked_shrimp@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/raw_shrimp",
+                "$result": "textures/items/cooked_shrimp"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "crabbersdelight_recipe_grid_0": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.crabbersdelight_recipe_part_0"
+  },
+  "crabbersdelight_recipe_part_1": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "bisque@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/onion"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/rice"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/milk_bottle"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/carrot"
+                    }
+                  },
+                  {
+                    "cell4@chest.is_seafood": {
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bowl"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bisque"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "cooked_clawster@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "clam_bake@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/raw_clawster",
+                "$result": "textures/items/cooked_clawster"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "crabbersdelight_recipe_grid_1": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.crabbersdelight_recipe_part_1"
+  },
+  "crabbersdelight_recipe_part_2": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "clam_bake@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/cooked_clam_meat",
+                "$cell1": "textures/items/cooked_clawster",
+                "$cell2": "textures/items/cooked_shrimp",
+                "$cell3": "textures/items/carrot",
+                "$cell4": "textures/items/onion",
+                "$cell5": "textures/blocks/seagrass_carried",
+                "$result": "textures/items/clam_bake"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "clam_chowder@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "clam_bake@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/cooked_clam_meat",
+                "$cell1": "textures/items/onion",
+                "$cell2": "textures/items/potato",
+                "$cell3": "textures/items/milk_bottle",
+                "$container": "textures/items/bowl",
+                "$result": "textures/items/clam_chowder"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "crabbersdelight_recipe_grid_2": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.crabbersdelight_recipe_part_2"
+  },
+  "crabbersdelight_recipe_part_3": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "crab_cakes@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/bread",
+                "$cell1": "textures/items/raw_crab",
+                "$cell2": "textures/items/milk_bottle",
+                "$cell3": "textures/items/onion",
+                "$cell4": "textures/items/egg",
+                "$result": "textures/items/crab_cakes"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "seafood_gumbo@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "clam_bake@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/raw_clawster",
+                "$cell1": "textures/items/raw_shrimp",
+                "$cell2": "textures/items/onion",
+                "$cell3": "textures/items/rice",
+                "$cell4": "textures/items/porkchop_cooked",
+                "$container": "textures/items/bowl",
+                "$result": "textures/items/seafood_gumbo"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "crabbersdelight_recipe_grid_3": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.crabbersdelight_recipe_part_3"
+  },
+  "crabbersdelight_recipe_part_4": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "stuffed_nautilus_shell@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/kelp"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/kelp"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/kelp"
+                    }
+                  },
+                  {
+                    "cell3@chest.is_cooked_fishes": {
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/nautilus"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/stuffed_nautilus_shell"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "cooked_clam_meat@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "clam_bake@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/raw_clam_meat",
+                "$result": "textures/items/cooked_clam_meat"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "crabbersdelight_recipe_grid_4": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.crabbersdelight_recipe_part_4"
+  },
+  "recipe_grid_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "crabbersdelight_recipe_grid_0@chest.crabbersdelight_recipe_grid_0": {}
+          },
+          {
+            "crabbersdelight_recipe_grid_1@chest.crabbersdelight_recipe_grid_1": {}
+          },
+          {
+            "crabbersdelight_recipe_grid_2@chest.crabbersdelight_recipe_grid_2": {}
+          },
+          {
+            "crabbersdelight_recipe_grid_3@chest.crabbersdelight_recipe_grid_3": {}
+          },
+          {
+            "crabbersdelight_recipe_grid_4@chest.crabbersdelight_recipe_grid_4": {}
+          }
+        ]
+      }
+    ]
+  }
+}

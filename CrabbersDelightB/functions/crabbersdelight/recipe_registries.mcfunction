@@ -1,0 +1,3 @@
+scoreboard objectives add farmersdelight_crabbersdelight_cooking_pot dummy
+scoreboard objectives add farmersdelight_crabbersdelight_cutting_board dummy
+scoreboard objectives add farmersdelight_crabbersdelight_cook dummy

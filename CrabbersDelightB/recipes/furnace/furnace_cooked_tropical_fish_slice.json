@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crabbersdelight:cooked_tropical_fish_slice"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "crabbersdelight:tropical_fish_slice",
+        "output": "crabbersdelight:cooked_tropical_fish_slice"
+    }
+}

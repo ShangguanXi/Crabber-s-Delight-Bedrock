@@ -1,0 +1,78 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "crabbersdelight:raw_crab": {
+      "textures": "textures/items/raw_crab"
+    },
+    "crabbersdelight:cooked_crab": {
+      "textures": "textures/items/cooked_crab"
+    },
+    "crabbersdelight:raw_clawster": {
+      "textures": "textures/items/raw_clawster"
+    },
+    "crabbersdelight:cooked_clawster": {
+      "textures": "textures/items/cooked_clawster"
+    },
+    "crabbersdelight:crab_legs": {
+      "textures": "textures/items/crab_legs"
+    },
+    "crabbersdelight:raw_shrimp": {
+      "textures": "textures/items/raw_shrimp"
+    },
+    "crabbersdelight:cooked_shrimp": {
+      "textures": "textures/items/cooked_shrimp"
+    },
+    "crabbersdelight:clam": {
+      "textures": "textures/items/clam"
+    },
+    "crabbersdelight:pearl": {
+      "textures": "textures/items/pearl"
+    },
+    "crabbersdelight:kelp_shake": {
+      "textures": "textures/items/kelp_shake"
+    },
+    "crabbersdelight:raw_clam_meat": {
+      "textures": "textures/items/raw_clam_meat"
+    },
+    "crabbersdelight:cooked_clam_meat": {
+      "textures": "textures/items/cooked_clam_meat"
+    },
+    "crabbersdelight:crab_cakes": {
+      "textures": "textures/items/crab_cakes"
+    },
+    "crabbersdelight:fish_stick": {
+      "textures": "textures/items/fish_stick"
+    },
+    "crabbersdelight:surf_and_turf": {
+      "textures": "textures/items/surf_and_turf"
+    },
+    "crabbersdelight:shrimp_skewer": {
+      "textures": "textures/items/shrimp_skewer"
+    },
+    "crabbersdelight:clam_bake": {
+      "textures": "textures/items/clam_bake"
+    },
+    "crabbersdelight:clam_chowder": {
+      "textures": "textures/items/clam_chowder"
+    },
+    "crabbersdelight:bisque": {
+      "textures": "textures/items/bisque"
+    },
+    "crabbersdelight:stuffed_nautilus_shell": {
+      "textures": "textures/items/stuffed_nautilus_shell"
+    },
+    "crabbersdelight:seafood_gumbo": {
+      "textures": "textures/items/seafood_gumbo"
+    },
+    "crabbersdelight:cooked_tropical_fish": {
+      "textures": "textures/items/cooked_tropical_fish"
+    },
+    "crabbersdelight:tropical_fish_slice": {
+      "textures": "textures/items/tropical_fish_slice"
+    },
+    "crabbersdelight:cooked_tropical_fish_slice": {
+      "textures": "textures/items/cooked_tropical_fish_slice"
+    }
+  }
+}

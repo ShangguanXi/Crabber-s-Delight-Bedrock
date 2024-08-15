@@ -1,0 +1,42 @@
+pack.description=Este complemento se basa en el mod original de Java Edition Crabber’s Delight y este trabajo está licenciado bajo la licencia MIT. Para FarmersDelightv2.0.0+
+pack.name=Crabber's Delight
+
+item.crabbersdelight:raw_crab=Cangrejo crudo
+item.crabbersdelight:cooked_crab=Cangrejo cocido
+item.crabbersdelight:raw_clawster=Langosta cruda
+item.crabbersdelight:cooked_clawster=Langosta cocida
+item.crabbersdelight:raw_shrimp=Camarón crudo
+item.crabbersdelight:cooked_shrimp=Camarón cocido
+item.crabbersdelight:clam=Almeja
+item.crabbersdelight:raw_clam_meat=Almeja cruda
+item.crabbersdelight:cooked_clam_meat=Almeja cocida
+item.crabbersdelight:pearl=Perla
+item.crabbersdelight:kelp_shake=Batido de algas
+item.crabbersdelight:crab_cakes=Tortas de cangrejo
+item.crabbersdelight:crab_legs=Pata de cangrejo
+item.crabbersdelight:cooked_tropical_fish=Pez tropical cocido
+item.crabbersdelight:shrimp_skewer=Brocheta de camarones
+item.crabbersdelight:surf_and_turf=Mar y tierra
+item.crabbersdelight:fish_stick=Palito de bacalao
+item.crabbersdelight:clam_bake=Almejas al horno
+item.crabbersdelight:clam_chowder=Sopa de almejas
+item.crabbersdelight:tropical_fish_slice=Rebanada de pez tropical
+item.crabbersdelight:cooked_tropical_fish_slice=Rebanada de pez tropical cocido
+item.crabbersdelight:bisque=Bisque
+item.crabbersdelight:seafood_gumbo=Gumbo de mariscos
+item.crabbersdelight:stuffed_nautilus_shell=Concha de nautilus rellena
+
+tile.crabbersdelight:crab_trap.name=Trampa para cangrejos
+tile.crabbersdelight:crab_barrel.name=Barril de cangrejos
+tile.crabbersdelight:clam_barrel.name=Barril de almejas
+tile.crabbersdelight:clawster_barrel.name=Barril de langostas
+tile.crabbersdelight:shrimp_barrel.name=Barril de camarones
+tile.crabbersdelight:cod_barrel.name=Barril de bacalao
+tile.crabbersdelight:salmon_barrel.name=Barril de salmón
+tile.crabbersdelight:pufferfish_barrel.name=Barril de pez globo
+tile.crabbersdelight:tropical_fish_barrel.name=Barril de pez tropical
+tile.crabbersdelight:nautilus_shell_block.name=Bloque de conchas nautilus
+tile.crabbersdelight:pearl_block.name=Bloque de perlas
+
+entity.crabbersdelight:crab.name=Cangrejo
+item.spawn_egg.entity.crabbersdelight:crab.name=Huevo generador de cangrejo

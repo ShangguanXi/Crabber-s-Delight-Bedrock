@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "crabbersdelight:cod"
+        },
+        "ingredients": [
+            {
+                "item": "crabbersdelight:cod_barrel"
+            }
+        ],
+        "result": {
+            "count": 9,
+            "item": "minecraft:cod"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

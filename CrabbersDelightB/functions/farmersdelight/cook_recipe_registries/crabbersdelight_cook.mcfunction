@@ -1,0 +1,2 @@
+scriptevent farmersdelight:cook minecraft:tropical_fish
+scoreboard objectives remove farmersdelight_crabbersdelight_cook

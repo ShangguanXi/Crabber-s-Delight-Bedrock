@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 3,
+        "saturation_modifier": 0.4166666666666667
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "crabbersdelight:crab_legs"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:can_cook"
+        ]
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "crabbersdelight:crab_legs",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.cookedFood"
+      }
+    }
+  }
+}

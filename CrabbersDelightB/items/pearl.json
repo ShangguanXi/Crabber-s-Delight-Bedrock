@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "crabbersdelight:pearl"
+        }
+      }
+    },
+    "description": {
+      "identifier": "crabbersdelight:pearl",
+      "menu_category": {
+        "category": "nature"
+      }
+    }
+  }
+}

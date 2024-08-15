@@ -1,0 +1,45 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "name": "pack.name",
+        "uuid": "18836a6c-fe16-60f4-87a4-5afb6439bd9f",
+        "version": [
+            2,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            20
+        ]
+    },
+    "modules": [
+        {
+            "description": "蟹农乐事",
+            "type": "resources",
+            "uuid": "b12e06a7-0a94-eb6c-a150-6bfd59564e26",
+            "version": [
+                2,
+                1,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Moaswies"
+        ]
+    },
+    "dependencies": [
+        {
+            "uuid": "10131071-9ec1-edcd-6871-857c700703d8",
+            "version": [
+                2,
+                1,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crabbersdelight:clam_barrel"
+        },
+        "key": {
+            "#": {
+                "item": "crabbersdelight:clam"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "crabbersdelight:clam_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+pack.description=This addon is ported based on the original Java Edition mod Crabber's Delight and this work is licensed under the MIT License. For FarmersDelightv2.0.0+
+pack.name=Crabber's Delight
+
+item.crabbersdelight:raw_crab=Raw Crab
+item.crabbersdelight:cooked_crab=Cooked Crab
+item.crabbersdelight:raw_clawster=Raw Clawster
+item.crabbersdelight:cooked_clawster=Cooked Clawster
+item.crabbersdelight:raw_shrimp=Raw Shrimp
+item.crabbersdelight:cooked_shrimp=Cooked Shrimp
+item.crabbersdelight:clam=Clam
+item.crabbersdelight:raw_clam_meat=Raw Clam
+item.crabbersdelight:cooked_clam_meat=Cooked Clam
+item.crabbersdelight:pearl=Pearl
+item.crabbersdelight:kelp_shake=Kelp Shake
+item.crabbersdelight:crab_cakes=Crab Cakes
+item.crabbersdelight:crab_legs=Crab Leg
+item.crabbersdelight:cooked_tropical_fish=Cooked Tropical Fish
+item.crabbersdelight:shrimp_skewer=Shrimp Skewer
+item.crabbersdelight:surf_and_turf=Surf 'n Turf
+item.crabbersdelight:fish_stick=Fish Stick
+item.crabbersdelight:clam_bake=Clam Bake
+item.crabbersdelight:clam_chowder=Clam Chowder
+item.crabbersdelight:tropical_fish_slice=Tropical Fish Slice
+item.crabbersdelight:cooked_tropical_fish_slice=Cooked Tropical Fish Slice
+item.crabbersdelight:bisque=Bisque
+item.crabbersdelight:seafood_gumbo=Seafood Gumbo
+item.crabbersdelight:stuffed_nautilus_shell=Stuffed Nautilus Shell
+
+tile.crabbersdelight:crab_trap.name=Crab Trap
+tile.crabbersdelight:crab_barrel.name=Crab Barrel
+tile.crabbersdelight:clam_barrel.name=Clam Barrel
+tile.crabbersdelight:clawster_barrel.name=Clawster Barrel
+tile.crabbersdelight:shrimp_barrel.name=Shrimp Barrel,
+tile.crabbersdelight:cod_barrel.name=Cod Barrel
+tile.crabbersdelight:salmon_barrel.name=Salmon Barrel
+tile.crabbersdelight:pufferfish_barrel.name=Pufferfish Barrel
+tile.crabbersdelight:tropical_fish_barrel.name=Tropical Fish Barrel
+tile.crabbersdelight:nautilus_shell_block.name=Nautilus Shell Block
+tile.crabbersdelight:pearl_block.name=Pearl Block
+
+entity.crabbersdelight:crab.name=Crab
+item.spawn_egg.entity.crabbersdelight:crab.name=Spawn Crab

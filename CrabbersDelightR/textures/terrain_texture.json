@@ -1,0 +1,59 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"nautilus_shell_block_bottom": {
+			"textures": "textures/blocks/nautilus_shell_block_bottom"
+		},
+		"nautilus_shell_block_top": {
+			"textures": "textures/blocks/nautilus_shell_block_top"
+		},
+		"nautilus_shell_block_left": {
+			"textures": "textures/blocks/nautilus_shell_block_left"
+		},
+		"nautilus_shell_block_right": {
+			"textures": "textures/blocks/nautilus_shell_block_right"
+		},
+		"nautilus_shell_block_front": {
+			"textures": "textures/blocks/nautilus_shell_block_front"
+		},
+		"nautilus_shell_block_rear": {
+			"textures": "textures/blocks/nautilus_shell_block_rear"
+		},
+		"clam_barrel_top": {
+			"textures": "textures/blocks/clam_barrel_top"
+		},
+		"barrel_side": {
+			"textures": "textures/blocks/barrel_side"
+		},
+		"barrel_bottom": {
+			"textures": "textures/blocks/barrel_bottom"
+		},
+		"clawster_barrel_top": {
+			"textures": "textures/blocks/clawster_barrel_top"
+		},
+		"cod_barrel_top": {
+			"textures": "textures/blocks/cod_barrel_top"
+		},
+		"crab_barrel_top": {
+			"textures": "textures/blocks/crab_barrel_top"
+		},
+		"pufferfish_barrel_top": {
+			"textures": "textures/blocks/pufferfish_barrel_top"
+		},
+		"salmon_barrel_top": {
+			"textures": "textures/blocks/salmon_barrel_top"
+		},
+		"shrimp_barrel_top": {
+			"textures": "textures/blocks/shrimp_barrel_top"
+		},
+		"tropical_fish_barrel_top": {
+			"textures": "textures/blocks/tropical_fish_barrel_top"
+		},
+		"pearl_block": {
+			"textures": "textures/blocks/pearl_block"
+		}
+	}
+}

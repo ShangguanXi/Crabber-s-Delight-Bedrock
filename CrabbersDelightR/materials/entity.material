@@ -1,0 +1,18 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "crab:entity_change_color": {
+      "+defines": [
+        "ALPHA_TEST"
+      ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 1,
+          "textureWrap": "Repeat"
+        }
+      ],
+      "msaaSupport": "Both"
+    },
+    "crab_default:entity_alphatest":{}
+  }
+}

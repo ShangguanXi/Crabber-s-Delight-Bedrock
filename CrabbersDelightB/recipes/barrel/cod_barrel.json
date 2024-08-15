@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crabbersdelight:cod_barrel"
+        },
+        "key": {
+            "#": {
+                "item": "minecraft:cod"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "crabbersdelight:cod_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

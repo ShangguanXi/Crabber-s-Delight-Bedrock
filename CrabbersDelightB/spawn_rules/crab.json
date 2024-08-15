@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "crabbersdelight:crab",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "mangrove_swamp"
+        },
+        "minecraft:herd": {
+          "min_size":3,
+          "max_size":5
+        }
+      }
+    ]
+  }
+}

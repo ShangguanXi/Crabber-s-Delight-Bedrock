@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "crabbersdelight:crab",
+            "materials": {
+                "default": "crab_default",
+                "color": "crab"
+            },
+            "geometry": {
+                "default": "geometry.crabbersdelight_crab"
+            },
+            "render_controllers": [
+                "controller.render.crabbersdelight_crab_color",
+                "controller.render.crabbersdelight_crab_default"
+            ],
+            "spawn_egg": {
+                "base_color": "#101a53",
+                "overlay_color": "#8f8c93"
+            },
+            "textures": {
+                "default": "textures/entities/crabbersdelight_crab_default",
+                "color": "textures/entities/crabbersdelight_crab_color"
+            },
+            "animations": {
+              "walk": "animation.crab.walk",
+              "idle": "animation.crab.idle"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "walk": "query.modified_move_speed"
+                    },
+                    "idle"
+                ]
+            }
+        }
+    }
+}

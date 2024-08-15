@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crabbersdelight:clawster_barrel"
+        },
+        "key": {
+            "#": {
+                "item": "crabbersdelight:raw_clawster"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "crabbersdelight:clawster_barrel"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

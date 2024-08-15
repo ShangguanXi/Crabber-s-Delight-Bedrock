@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "crabbersdelight:salmon_barrel",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "salmon_barrel_top"
+                },
+                "*": {
+                    "texture": "barrel_side"
+                },
+                "down": {
+                    "texture": "barrel_bottom"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:geometry": "geometry.block",
+            "tag:wood":{}
+        }
+    }
+}

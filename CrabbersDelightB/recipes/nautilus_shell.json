@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "crabbersdelight:nautilus_shell"
+        },
+        "ingredients": [
+            {
+                "item": "crabbersdelight:nautilus_shell_block"
+            }
+        ],
+        "result": {
+            "count": 9,
+            "item": "minecraft:nautilus_shell"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "crabbersdelight:fish_stick_from_salmon_slice"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "farmersdelight:cooked_salmon_slice"
+            }
+        ],
+        "result": {
+            "item": "crabbersdelight:fish_stick"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
