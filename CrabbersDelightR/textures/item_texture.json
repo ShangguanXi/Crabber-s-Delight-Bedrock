@@ -18,7 +18,7 @@
       "textures": "textures/items/crab_legs"
     },
     "crabbersdelight:raw_shrimp": {
-      "textures": "textures/items/raw_shrimp"
+      "textures": "textures/items/shrimp"
     },
     "crabbersdelight:cooked_shrimp": {
       "textures": "textures/items/cooked_shrimp"
