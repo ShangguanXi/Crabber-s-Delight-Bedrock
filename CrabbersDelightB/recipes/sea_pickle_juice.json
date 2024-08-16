@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "crabbersdelight:sea_pickle_juice"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:sea_pickle"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "result": {
+            "item": "crabbersdelight:sea_pickle_juice"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

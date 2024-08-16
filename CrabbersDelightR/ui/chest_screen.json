@@ -85,7 +85,7 @@
           "controls": [
             {
               "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
-                "$cell0": "textures/items/raw_shrimp",
+                "$cell0": "textures/items/shrimp",
                 "$result": "textures/items/cooked_shrimp"
               }
             }
@@ -384,7 +384,7 @@
             {
               "clam_bake@chest.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/raw_clawster",
-                "$cell1": "textures/items/raw_shrimp",
+                "$cell1": "textures/items/shrimp",
                 "$cell2": "textures/items/onion",
                 "$cell3": "textures/items/rice",
                 "$cell4": "textures/items/porkchop_cooked",
@@ -554,6 +554,75 @@
     ],
     "grid_item_template": "chest.crabbersdelight_recipe_part_4"
   },
+  "crabbersdelight_recipe_part_5": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "jar_of_pickles@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/sea_pickle",
+                "$cell1": "textures/items/sea_pickle",
+                "$cell2": "textures/items/sea_pickle",
+                "$container": "textures/items/potion_bottle_empty",
+                "$result": "textures/items/jar_of_pickles"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "shrimp_fried_rice@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "clam_bake@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/cooked_rice",
+                "$cell1": "textures/items/onion",
+                "$cell2": "textures/items/shrimp",
+                "$cell3": "textures/items/carrot",
+                "$result": "textures/items/shrimp_fried_rice"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "crabbersdelight_recipe_grid_5": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.crabbersdelight_recipe_part_5"
+  },
   "recipe_grid_panel": {
     "modifications": [
       {
@@ -574,6 +643,9 @@
           },
           {
             "crabbersdelight_recipe_grid_4@chest.crabbersdelight_recipe_grid_4": {}
+          },
+          {
+            "crabbersdelight_recipe_grid_5@chest.crabbersdelight_recipe_grid_5": {}
           }
         ]
       }
