@@ -3,23 +3,23 @@
   "minecraft:item": {
     "components": {
       "minecraft:food": {
-        "can_always_eat": true,
-        "nutrition": 0,
-        "saturation_modifier": 0,
-        "using_converts_to": "minecraft:glass_bottle"
+        "can_always_eat": false,
+        "nutrition": 7,
+        "saturation_modifier": 0.7,
+        "using_converts_to": "minecraft:bowl"
       },
       "minecraft:icon": {
         "textures": {
-          "default": "crabbersdelight:kelp_shake"
+          "default": "crabbersdelight:shrimp_fried_rice"
         }
       },
-      "minecraft:use_animation": "drink",
+      "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 1.6
       }
     },
     "description": {
-      "identifier": "crabbersdelight:kelp_shake",
+      "identifier": "crabbersdelight:shrimp_fried_rice",
       "menu_category": {
         "category": "equipment",
         "group": "itemGroup.name.miscFood"

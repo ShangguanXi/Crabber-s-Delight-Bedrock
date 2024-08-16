@@ -4,13 +4,13 @@
     "components": {
       "minecraft:food": {
         "can_always_eat": true,
-        "nutrition": 0,
-        "saturation_modifier": 0,
+        "nutrition": 2,
+        "saturation_modifier": 0.2,
         "using_converts_to": "minecraft:glass_bottle"
       },
       "minecraft:icon": {
         "textures": {
-          "default": "crabbersdelight:kelp_shake"
+          "default": "crabbersdelight:sea_pickle_juice"
         }
       },
       "minecraft:use_animation": "drink",
@@ -19,7 +19,7 @@
       }
     },
     "description": {
-      "identifier": "crabbersdelight:kelp_shake",
+      "identifier": "crabbersdelight:sea_pickle_juice",
       "menu_category": {
         "category": "equipment",
         "group": "itemGroup.name.miscFood"

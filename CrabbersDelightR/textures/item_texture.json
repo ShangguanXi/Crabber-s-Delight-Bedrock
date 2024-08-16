@@ -112,6 +112,15 @@
     },
     "crabbersdelight:coral_crunch": {
       "textures": "textures/items/coral_crunch"
+    },
+    "crabbersdelight:shrimp_fried_rice": {
+      "textures": "textures/items/shrimp_fried_rice"
+    },
+    "crabbersdelight:jar_of_pickles": {
+      "textures": "textures/items/jar_of_pickles"
+    },
+    "crabbersdelight:sea_pickle_juice": {
+      "textures": "textures/items/sea_pickle_juice"
     }
   }
 }
