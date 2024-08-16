@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "crabbersdelight:squid_kebob"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "tag": "crabbersdelight:cooked_squid"
+            },
+            {
+                "item": "farmersdelight:onion"
+            },
+            {
+                "item": "farmersdelight:onion"
+            },
+            {
+                "item": "farmersdelight:tomato"
+            }
+        ],
+        "result": {
+            "item": "crabbersdelight:squid_kebob"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

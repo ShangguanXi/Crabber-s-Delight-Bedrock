@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "crabbersdelight:frog_leg_kebob"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "crabbersdelight:cooked_frog_leg"
+            },
+            {
+                "item": "farmersdelight:onion"
+            },
+            {
+                "item": "minecraft:brown_mushroom"
+            },
+            {
+                "item": "minecraft:carrot"
+            }
+        ],
+        "result": {
+            "item": "crabbersdelight:frog_leg_kebob"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
