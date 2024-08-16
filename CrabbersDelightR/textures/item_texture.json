@@ -103,6 +103,15 @@
     },
     "crabbersdelight:coral_fragments": {
       "textures": "textures/items/coral_fragments"
+    },
+    "crabbersdelight:squid_kebob": {
+      "textures": "textures/items/squid_kebob"
+    },
+    "crabbersdelight:frog_leg_kebob": {
+      "textures": "textures/items/frog_leg_kebob"
+    },
+    "crabbersdelight:coral_crunch": {
+      "textures": "textures/items/coral_crunch"
     }
   }
 }

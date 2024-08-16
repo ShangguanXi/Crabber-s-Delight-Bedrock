@@ -41,6 +41,10 @@ item.crabbersdelight:cooked_pufferfish_slice=熟河豚片
 item.crabbersdelight:can=罐头
 item.crabbersdelight:coral_fragments=珊瑚残片
 
+item.crabbersdelight:squid_kebob=鱿鱼烤串
+item.crabbersdelight:frog_leg_kebob=青蛙腿烤串
+item.crabbersdelight:coral_crunch=珊瑚脆脆
+
 tile.crabbersdelight:crab_trap.name=Crab Trap
 tile.crabbersdelight:crab_barrel.name=桶装螃蟹
 tile.crabbersdelight:clam_barrel.name=桶装蛤蜊
