@@ -54,6 +54,9 @@ tile.crabbersdelight:cod_barrel.name=Barril de bacalao
 tile.crabbersdelight:salmon_barrel.name=Barril de salmón
 tile.crabbersdelight:pufferfish_barrel.name=Barril de pez globo
 tile.crabbersdelight:tropical_fish_barrel.name=Barril de pez tropical
+tile.crabbersdelight:squid_barrel.name=Barril de Calamares
+tile.crabbersdelight:glow_squid_barrel.name=Barril de Calamares Luminosos
+tile.crabbersdelight:frog_leg_barrel.name=Barril de Patas de Rana
 tile.crabbersdelight:nautilus_shell_block.name=Bloque de conchas nautilus
 tile.crabbersdelight:pearl_block.name=Bloque de perlas
 

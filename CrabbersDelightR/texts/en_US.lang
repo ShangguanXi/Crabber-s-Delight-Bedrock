@@ -58,6 +58,9 @@ tile.crabbersdelight:cod_barrel.name=Cod Barrel
 tile.crabbersdelight:salmon_barrel.name=Salmon Barrel
 tile.crabbersdelight:pufferfish_barrel.name=Pufferfish Barrel
 tile.crabbersdelight:tropical_fish_barrel.name=Tropical Fish Barrel
+tile.crabbersdelight:squid_barrel.name=Squid Barrel
+tile.crabbersdelight:glow_squid_barrel.name=Glow Squid Barrel
+tile.crabbersdelight:frog_leg_barrel.name=Frog Leg Barrel
 tile.crabbersdelight:nautilus_shell_block.name=Nautilus Shell Block
 tile.crabbersdelight:pearl_block.name=Pearl Block
 
