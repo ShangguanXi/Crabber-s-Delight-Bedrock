@@ -5,8 +5,7 @@
             "identifier": "crabbersdelight:crab",
             "is_spawnable": true,
             "is_summonable": true,
-            "is_experimental": false,
-            "runtime_identifier": "minecraft:cod"
+            "is_experimental": false
         },
         "component_groups": {
             "crabbersdelight:crab_baby": {
