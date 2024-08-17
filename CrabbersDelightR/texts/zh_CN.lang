@@ -64,4 +64,4 @@ tile.crabbersdelight:frog_leg_barrel.name=桶装青蛙腿
 tile.crabbersdelight:pearl_block.name=珍珠块
 
 entity.crabbersdelight:crab.name=螃蟹
-item.spawn_egg.entity.crabbersdelight:crab.name=生成 螃蟹
+item.spawn_egg.entity.crabbersdelight:crab.name=螃蟹生成蛋
