@@ -1,0 +1,13 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crabbersdelight:iron_nugget_from_smelting_can"
+        },
+        "tags": [
+            "blast_furnace"
+        ],
+        "input": "crabbersdelight:can",
+        "output": "minecraft:iron_nugget"
+    }
+}
