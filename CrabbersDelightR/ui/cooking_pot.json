@@ -51,7 +51,7 @@
     ],
     "controls": [
       {
-        "cooked_crab@chest.cooking_pot_recipe": {
+        "cooked_crab@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -63,7 +63,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/raw_crab",
                 "$result": "textures/items/cooked_crab"
               }
@@ -72,7 +72,7 @@
         }
       },
       {
-        "cooked_shrimp@chest.cooking_pot_recipe": {
+        "cooked_shrimp@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -84,7 +84,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/shrimp",
                 "$result": "textures/items/cooked_shrimp"
               }
@@ -104,7 +104,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.crabbersdelight_recipe_part_0"
+    "grid_item_template": "cooking_pot.crabbersdelight_recipe_part_0"
   },
   "crabbersdelight_recipe_part_1": {
     "type": "panel",
@@ -114,7 +114,7 @@
     ],
     "controls": [
       {
-        "bisque@chest.cooking_pot_recipe": {
+        "bisque@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -126,7 +126,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "controls": [
                   {
                     "cell0": {
@@ -185,7 +185,7 @@
                     }
                   },
                   {
-                    "cell4@chest.is_seafood": {
+                    "cell4@cooking_pot.is_seafood": {
                       "offset": [
                         -14.625,
                         1.5
@@ -231,7 +231,7 @@
         }
       },
       {
-        "cooked_clawster@chest.cooking_pot_recipe": {
+        "cooked_clawster@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -243,7 +243,7 @@
           ],
           "controls": [
             {
-              "clam_bake@chest.cooking_pot_recipe_cell": {
+              "clam_bake@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/raw_clawster",
                 "$result": "textures/items/cooked_clawster"
               }
@@ -263,7 +263,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.crabbersdelight_recipe_part_1"
+    "grid_item_template": "cooking_pot.crabbersdelight_recipe_part_1"
   },
   "crabbersdelight_recipe_part_2": {
     "type": "panel",
@@ -273,7 +273,7 @@
     ],
     "controls": [
       {
-        "clam_bake@chest.cooking_pot_recipe": {
+        "clam_bake@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -285,7 +285,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/cooked_clam_meat",
                 "$cell1": "textures/items/cooked_clawster",
                 "$cell2": "textures/items/cooked_shrimp",
@@ -299,7 +299,7 @@
         }
       },
       {
-        "clam_chowder@chest.cooking_pot_recipe": {
+        "clam_chowder@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -311,7 +311,7 @@
           ],
           "controls": [
             {
-              "clam_bake@chest.cooking_pot_recipe_cell": {
+              "clam_bake@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/cooked_clam_meat",
                 "$cell1": "textures/items/onion",
                 "$cell2": "textures/items/potato",
@@ -335,7 +335,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.crabbersdelight_recipe_part_2"
+    "grid_item_template": "cooking_pot.crabbersdelight_recipe_part_2"
   },
   "crabbersdelight_recipe_part_3": {
     "type": "panel",
@@ -345,7 +345,7 @@
     ],
     "controls": [
       {
-        "crab_cakes@chest.cooking_pot_recipe": {
+        "crab_cakes@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -357,7 +357,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/bread",
                 "$cell1": "textures/items/raw_crab",
                 "$cell2": "textures/items/milk_bottle",
@@ -370,7 +370,7 @@
         }
       },
       {
-        "seafood_gumbo@chest.cooking_pot_recipe": {
+        "seafood_gumbo@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -382,12 +382,12 @@
           ],
           "controls": [
             {
-              "clam_bake@chest.cooking_pot_recipe_cell": {
+              "clam_bake@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/raw_clawster",
                 "$cell1": "textures/items/shrimp",
                 "$cell2": "textures/items/onion",
                 "$cell3": "textures/items/rice",
-                "$cell4": "textures/items/porkchop_cooked",
+                "$cell4": "textures/items/porkchop_raw",
                 "$container": "textures/items/bowl",
                 "$result": "textures/items/seafood_gumbo"
               }
@@ -407,7 +407,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.crabbersdelight_recipe_part_3"
+    "grid_item_template": "cooking_pot.crabbersdelight_recipe_part_3"
   },
   "crabbersdelight_recipe_part_4": {
     "type": "panel",
@@ -417,7 +417,7 @@
     ],
     "controls": [
       {
-        "stuffed_nautilus_shell@chest.cooking_pot_recipe": {
+        "stuffed_nautilus_shell@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -429,7 +429,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "controls": [
                   {
                     "cell0": {
@@ -474,7 +474,7 @@
                     }
                   },
                   {
-                    "cell3@chest.is_cooked_fishes": {
+                    "cell3@cooking_pot.is_cooked_fishes": {
                       "offset": [
                         -23,
                         1.5
@@ -520,7 +520,7 @@
         }
       },
       {
-        "cooked_clam_meat@chest.cooking_pot_recipe": {
+        "cooked_clam_meat@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -532,7 +532,7 @@
           ],
           "controls": [
             {
-              "clam_bake@chest.cooking_pot_recipe_cell": {
+              "clam_bake@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/raw_clam_meat",
                 "$result": "textures/items/cooked_clam_meat"
               }
@@ -552,7 +552,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.crabbersdelight_recipe_part_4"
+    "grid_item_template": "cooking_pot.crabbersdelight_recipe_part_4"
   },
   "crabbersdelight_recipe_part_5": {
     "type": "panel",
@@ -562,7 +562,7 @@
     ],
     "controls": [
       {
-        "jar_of_pickles@chest.cooking_pot_recipe": {
+        "jar_of_pickles@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -574,7 +574,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/sea_pickle",
                 "$cell1": "textures/items/sea_pickle",
                 "$cell2": "textures/items/sea_pickle",
@@ -586,7 +586,7 @@
         }
       },
       {
-        "shrimp_fried_rice@chest.cooking_pot_recipe": {
+        "shrimp_fried_rice@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -598,7 +598,7 @@
           ],
           "controls": [
             {
-              "clam_bake@chest.cooking_pot_recipe_cell": {
+              "clam_bake@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/cooked_rice",
                 "$cell1": "textures/items/onion",
                 "$cell2": "textures/items/shrimp",
@@ -621,7 +621,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.crabbersdelight_recipe_part_5"
+    "grid_item_template": "cooking_pot.crabbersdelight_recipe_part_5"
   },
   "recipe_grid_panel": {
     "modifications": [
@@ -630,22 +630,22 @@
         "operation": "insert_back",
         "value": [
           {
-            "crabbersdelight_recipe_grid_0@chest.crabbersdelight_recipe_grid_0": {}
+            "crabbersdelight_recipe_grid_0@cooking_pot.crabbersdelight_recipe_grid_0": {}
           },
           {
-            "crabbersdelight_recipe_grid_1@chest.crabbersdelight_recipe_grid_1": {}
+            "crabbersdelight_recipe_grid_1@cooking_pot.crabbersdelight_recipe_grid_1": {}
           },
           {
-            "crabbersdelight_recipe_grid_2@chest.crabbersdelight_recipe_grid_2": {}
+            "crabbersdelight_recipe_grid_2@cooking_pot.crabbersdelight_recipe_grid_2": {}
           },
           {
-            "crabbersdelight_recipe_grid_3@chest.crabbersdelight_recipe_grid_3": {}
+            "crabbersdelight_recipe_grid_3@cooking_pot.crabbersdelight_recipe_grid_3": {}
           },
           {
-            "crabbersdelight_recipe_grid_4@chest.crabbersdelight_recipe_grid_4": {}
+            "crabbersdelight_recipe_grid_4@cooking_pot.crabbersdelight_recipe_grid_4": {}
           },
           {
-            "crabbersdelight_recipe_grid_5@chest.crabbersdelight_recipe_grid_5": {}
+            "crabbersdelight_recipe_grid_5@cooking_pot.crabbersdelight_recipe_grid_5": {}
           }
         ]
       }

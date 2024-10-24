@@ -1,0 +1,68 @@
+pack.description=This addon is ported based on the original Java Edition mod Crabber's Delight and this work is licensed under the MIT License. For FarmersDelightv2.0.0+
+pack.name=Crabber's Delight
+
+item.crabbersdelight:raw_crab=Yengeç
+item.crabbersdelight:cooked_crab=Pişmiş Yenceç
+item.crabbersdelight:raw_clawster=Istakoz
+item.crabbersdelight:cooked_clawster=Pişmiş Istakoz
+item.crabbersdelight:raw_shrimp=Karides
+item.crabbersdelight:cooked_shrimp=Pişmiş Karides
+item.crabbersdelight:clam=Midye
+item.crabbersdelight:raw_clam_meat=Çiğ Midye Eti
+item.crabbersdelight:cooked_clam_meat=Pişmiş Midye Eti
+item.crabbersdelight:pearl=İnci
+item.crabbersdelight:kelp_shake=Yosun Suyu
+item.crabbersdelight:crab_cakes=Yengeç Keki
+item.crabbersdelight:crab_legs=Yengeç Ayağı
+item.crabbersdelight:cooked_tropical_fish=Pişmiş Tropik Balık
+item.crabbersdelight:shrimp_skewer=Şişte Karides
+item.crabbersdelight:surf_and_turf=Surf 'n Turf
+item.crabbersdelight:fish_stick=Şişte Balık
+item.crabbersdelight:clam_bake=Midye Yemeği
+item.crabbersdelight:clam_chowder=Midye Çorbası
+item.crabbersdelight:tropical_fish_slice=Tropik Balık Dilimi
+item.crabbersdelight:cooked_tropical_fish_slice=Pişmiş Tropik Balık Dilimi
+item.crabbersdelight:bisque=Balık Çorbası
+item.crabbersdelight:seafood_gumbo=Seafood Gumbo
+item.crabbersdelight:stuffed_nautilus_shell=Nautilus Kabuğu Dolması
+
+item.crabbersdelight:raw_squid_tentacles=Çiğ Mürekkep Balığı Dokungaçları
+item.crabbersdelight:cooked_squid_tentacles=Pişmiş Mürekkep Balığı Dokungaçları
+
+item.crabbersdelight:raw_glow_squid_tentacles=Çiğ Parlayan Mürekkep Balığı Dokungaçları
+item.crabbersdelight:cooked_glow_squid_tentacles=Pişmiş Parlayan Mürekkep Balığı Dokungaçları
+
+item.crabbersdelight:raw_frog_leg=Çiğ Kurbağa Ayağı
+item.crabbersdelight:cooked_frog_leg=Pişmiş Kurbağa Ayağı
+
+item.crabbersdelight:pufferfish_slice=Çiğ Kirpi Balığı Dilimi
+item.crabbersdelight:cooked_pufferfish_slice=Pişmiş Kirpi Balığı Dilimi
+
+item.crabbersdelight:can=Teneke
+item.crabbersdelight:coral_fragments=Mercan Parçaları
+
+item.crabbersdelight:squid_kebob=Mürekkep Balığı Kebabı
+item.crabbersdelight:frog_leg_kebob=Kurbağa Kebabı
+item.crabbersdelight:coral_crunch=Mercan Gevreği
+item.crabbersdelight:shrimp_fried_rice=Karidesli Pilav
+item.crabbersdelight:jar_of_pickles=Turşu Kavanozu
+item.crabbersdelight:sea_pickle_juice=Turşu Suyu
+
+
+tile.crabbersdelight:crab_trap.name=Yengeç Tuzağı
+tile.crabbersdelight:crab_barrel.name=Yengeç Fıçısı
+tile.crabbersdelight:clam_barrel.name=Midye Fıçısı
+tile.crabbersdelight:clawster_barrel.name=Istakoz Fıçısı
+tile.crabbersdelight:shrimp_barrel.name=Karides Fıçısı
+tile.crabbersdelight:cod_barrel.name=Morina Fıçısı
+tile.crabbersdelight:salmon_barrel.name=Somon Fıçısı
+tile.crabbersdelight:pufferfish_barrel.name=Kirpi Balığı Fıçısı
+tile.crabbersdelight:tropical_fish_barrel.name=Tropik Balık Fıçısı
+tile.crabbersdelight:squid_barrel.name=Mürekkep Balığı Fıçısı
+tile.crabbersdelight:glow_squid_barrel.name=Parlayan Mürekkep Balığı Fıçısı
+tile.crabbersdelight:frog_leg_barrel.name=Kurbağa Ayağı Fıçısı
+tile.crabbersdelight:nautilus_shell_block.name=Nautilus Kabuğu Bloğu
+tile.crabbersdelight:pearl_block.name=İnci Bloğu
+
+entity.crabbersdelight:crab.name=Yengeç
+item.spawn_egg.entity.crabbersdelight:crab.name=Yengeç Çağırma Yumurtası

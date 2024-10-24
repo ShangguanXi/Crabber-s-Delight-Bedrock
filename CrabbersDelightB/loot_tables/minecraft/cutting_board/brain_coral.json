@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": 2, 
+              "function": "set_count"
+            }
+          ], 
+          "name": "crabbersdelight:coral_fragments", 
+          "type": "item"
+        }
+      ], 
+      "rolls": 1
+    }
+  ]
+}
