@@ -1,11 +1,11 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
             "identifier": "crabbersdelight:clawster_barrel",
             "menu_category": {
                 "category": "items",
-                "group": "itemGroup.name.barrel"
+                "group": "crabbersdelight:itemGroup.name.barrel"
             }
         },
         "components": {

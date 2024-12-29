@@ -40,6 +40,27 @@
 		"crab_barrel_top": {
 			"textures": "textures/blocks/crab_barrel_top"
 		},
+		"crab_trap_bottom": {
+			"textures": "textures/blocks/crab_trap_bottom"
+		},
+		"crab_trap_front": {
+			"textures": "textures/blocks/crab_trap_front"
+		},
+		"crab_trap_handle_chain": {
+			"textures": "textures/blocks/crab_trap_handle_chain"
+		},
+		"crab_trap_handle_rope": {
+			"textures": "textures/blocks/crab_trap_handle_rope"
+		},
+		"crab_trap_handles": {
+			"textures": "textures/blocks/crab_trap_handles"
+		},
+		"crab_trap_side": {
+			"textures": "textures/blocks/crab_trap_side"
+		},
+		"crab_trap_top": {
+			"textures": "textures/blocks/crab_trap_top"
+		},
 		"pufferfish_barrel_top": {
 			"textures": "textures/blocks/pufferfish_barrel_top"
 		},

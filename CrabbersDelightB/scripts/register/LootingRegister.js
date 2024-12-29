@@ -18,7 +18,8 @@ export class LootingRegister {
         if (!entity || !hurtEntity)
             return;
         const equipment = entity.getComponent(EntityEquippableComponent.componentId);
-        const onFire = hurtEntity.getComponent('minecraft:onfire')?.onFireTicksRemaining;
+        const onFireComponent = hurtEntity.getComponent('minecraft:onfire');
+        const onFire = onFireComponent?.onFireTicksRemaining;
         const mainHand = equipment?.getEquipmentSlot(EquipmentSlot.Mainhand);
         if (!mainHand)
             return;

@@ -1,4 +1,4 @@
-import { EntityEquippableComponent, EntityHurtAfterEvent, EquipmentSlot, ItemStack, world } from "@minecraft/server"
+import { EntityEquippableComponent, EntityHealableComponent, EntityHealthComponent, EntityHurtAfterEvent, EntityOnFireComponent, EquipmentSlot, ItemStack, world } from "@minecraft/server"
 import { EventAPI } from "../lib/EventAPI"
 import { RandomAPI } from "../lib/RandomAPI";
 import { ItemAPI } from "../lib/ItemAPI";
@@ -10,12 +10,13 @@ export class LootingRegister {
         const hurtEntity = args.hurtEntity
         if (!entity || !hurtEntity)
             return;
-        const equipment = entity.getComponent(EntityEquippableComponent.componentId);
-        const onFire = hurtEntity.getComponent('minecraft:onfire')?.onFireTicksRemaining;
+        const equipment = entity.getComponent(EntityEquippableComponent.componentId) as EntityEquippableComponent;
+        const onFireComponent = hurtEntity.getComponent('minecraft:onfire') as EntityOnFireComponent
+        const onFire = onFireComponent?.onFireTicksRemaining;
         const mainHand = equipment?.getEquipmentSlot(EquipmentSlot.Mainhand);
         if(!mainHand)return;
         if (!mainHand?.hasTag('farmersdelight:is_knife')) return;
-        const health = hurtEntity.getComponent('minecraft:health');
+        const health = hurtEntity.getComponent('minecraft:health') as EntityHealthComponent;
         if (!health?.currentValue && hurtEntity.typeId === 'minecraft:squid') {
             if (onFire != undefined) {
                 try {
@@ -70,7 +71,7 @@ export class LootingRegister {
         if (!entity || !hurtEntity)
             return;
         const seaFood = ['crabbersdelight:raw_shrimp','crabbersdelight:raw_clawster','crabbersdelight:raw_crab','crabbersdelight:clam']
-        const health = hurtEntity.getComponent('minecraft:health');
+        const health = hurtEntity.getComponent('minecraft:health')as EntityHealthComponent;
         if (!health?.currentValue && (hurtEntity.typeId == 'minecraft:guardian'||hurtEntity.typeId == 'minecraft:elder_guardian')) {
             ItemAPI.spawn(hurtEntity, seaFood[RandomAPI.RandomInt(2)], 1);
         }

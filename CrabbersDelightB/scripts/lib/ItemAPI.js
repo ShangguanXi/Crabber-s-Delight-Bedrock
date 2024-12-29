@@ -9,7 +9,8 @@ export class ItemAPI {
      * @returns
      */
     static damage(player, slot, damage = 1) {
-        const container = player.getComponent("inventory")?.container;
+        const inventory = player.getComponent("inventory");
+        const container = inventory.container;
         if (!container)
             return;
         const itemStack = container?.getItem(slot);
@@ -40,7 +41,8 @@ export class ItemAPI {
      * @returns
      */
     static replace(player, slot, newItemStack) {
-        const container = player.getComponent("inventory")?.container;
+        const inventory = player.getComponent("inventory");
+        const container = inventory.container;
         if (!container)
             return;
         const itemStack = container?.getItem(slot);
@@ -61,10 +63,11 @@ export class ItemAPI {
      * @returns
      */
     static clear(player, slot, number = 1) {
-        const container = player.getComponent("inventory")?.container;
+        const inventory = player.getComponent("inventory");
+        const container = inventory.container;
+        const itemStack = container?.getItem(slot);
         if (!container)
             return;
-        const itemStack = container?.getItem(slot);
         if (!itemStack)
             return;
         if (player.getGameMode() == GameMode.creative)
@@ -133,7 +136,8 @@ export class ItemAPI {
      * @returns
      */
     static add(player, item, number = 1) {
-        const container = player.getComponent("inventory")?.container;
+        const inventory = player.getComponent("inventory");
+        const container = inventory.container;
         if (!container)
             return;
         if (item instanceof ItemStack) {
