@@ -1,0 +1,15 @@
+{
+    "minecraft:tags": {
+        "tags": [
+            "crabbersdelight:cooked_calamari",
+            "crabbersdelight:cooked_seafood",
+            "crabbersdelight:raw_calamari",
+            "crabbersdelight:raw_seafood",
+            "farmersdelight:cooked_calamari",
+            "farmersdelight:cooked_seafood",
+            "farmersdelight:is_cooked_fish",
+            "farmersdelight:raw_calamari",
+            "farmersdelight:raw_seafood"
+        ]
+    }
+}

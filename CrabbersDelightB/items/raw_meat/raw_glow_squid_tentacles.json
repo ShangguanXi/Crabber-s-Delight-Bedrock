@@ -15,7 +15,8 @@
       "minecraft:tags": {
         "tags": [
           "farmersdelight:can_cook",
-          "crabbersdelight:raw_squid"
+          "farmersdelight:raw_calamari",
+          "crabbersdelight:raw_calamari"
         ]
       },
       "minecraft:use_animation": "eat",

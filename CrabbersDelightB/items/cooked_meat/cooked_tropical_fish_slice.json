@@ -15,6 +15,7 @@
       "minecraft:tags": {
         "tags": [
           "crabbersdelight:cooked_seafood",
+          "farmersdelight:cooked_seafood",
           "farmersdelight:is_cooked_fish"
         ]
       },

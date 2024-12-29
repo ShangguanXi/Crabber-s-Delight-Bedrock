@@ -14,7 +14,8 @@
       },
       "minecraft:tags": {
         "tags": [
-          "farmersdelight:can_cook"
+          "farmersdelight:can_cook",
+          "farmersdelight:raw_seafood"
         ]
       },
       "minecraft:use_animation": "eat",

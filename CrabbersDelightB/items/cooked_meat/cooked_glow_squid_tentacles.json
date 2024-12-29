@@ -14,7 +14,8 @@
             },
             "minecraft:tags": {
                 "tags": [
-                    "crabbersdelight:cooked_squid"
+                    "crabbersdelight:cooked_calamari",
+                    "farmersdelight:cooked_calamari"
                 ]
             },
             "minecraft:use_animation": "eat",

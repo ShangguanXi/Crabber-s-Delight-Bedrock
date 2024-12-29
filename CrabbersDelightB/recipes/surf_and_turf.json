@@ -6,7 +6,7 @@
         },
         "ingredients": [
             {
-                "tag": "crabbersdelight:cooked_seafood"
+                "tag": "farmersdelight:cooked_seafood"
             },
             {
                 "item": "minecraft:baked_potato"

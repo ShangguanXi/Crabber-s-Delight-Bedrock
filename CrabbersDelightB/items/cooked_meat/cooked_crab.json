@@ -14,6 +14,7 @@
       },
       "minecraft:tags": {
         "tags": [
+          "farmersdelight:cooked_seafood",
           "farmersdelight:can_cut.tag.farmersdelight:is_knife",
           "crabbersdelight:cooked_seafood"
         ]
