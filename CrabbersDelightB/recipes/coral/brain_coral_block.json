@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:brain_coral_block"
+        },
+        "key": {
+            "c": {
+                "item": "crabbersdelight:coral_fragments"
+            },
+            "d": {
+                "item": "minecraft:pink_dye"
+            }
+        },
+        "pattern": [
+            " c ",
+            "cdc",
+            " c "
+        ],
+        "result": {
+            "item": "minecraft:brain_coral_block"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
