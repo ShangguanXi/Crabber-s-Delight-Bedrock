@@ -48,7 +48,7 @@ item.crabbersdelight:shrimp_fried_rice=虾炒饭
 item.crabbersdelight:jar_of_pickles=泡菜罐
 item.crabbersdelight:sea_pickle_juice=海泡菜汁
 
-tile.crabbersdelight:crab_trap.name=Crab Trap
+tile.crabbersdelight:crab_trap.name=捕蟹笼
 tile.crabbersdelight:crab_barrel.name=桶装螃蟹
 tile.crabbersdelight:clam_barrel.name=桶装蛤蜊
 tile.crabbersdelight:clawster_barrel.name=桶装龙虾
@@ -65,3 +65,8 @@ tile.crabbersdelight:pearl_block.name=珍珠块
 
 entity.crabbersdelight:crab.name=螃蟹
 item.spawn_egg.entity.crabbersdelight:crab.name=螃蟹生成蛋
+
+item.crabbersdelight:bucket_of_clam_chum=蛤蜊诱饵桶
+item.crabbersdelight:bucket_of_clawster_chum=龙虾诱饵桶
+item.crabbersdelight:bucket_of_crab_chum=螃蟹诱饵桶
+item.crabbersdelight:bucket_of_shrimp_chum=虾诱饵桶

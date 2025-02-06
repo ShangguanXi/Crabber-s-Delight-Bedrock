@@ -1,0 +1,617 @@
+{
+    "namespace": "crab_trap",
+    "chest_label": {
+        "$new_container_title|default": "$container_title",
+        "text": "$container_title"
+    },
+    "input_grid_panel": {
+        "type": "panel",
+        "grid_position": [
+            0,
+            0
+        ]
+    },
+    "crab_trap_panel": {
+        "type": "panel",
+        "controls": [
+            {
+                "container_gamepad_helpers@common.container_gamepad_helpers": {}
+            },
+            {
+                "flying_item_renderer@common.flying_item_renderer": {
+                    "layer": 14
+                }
+            },
+            {
+                "selected_item_details_factory@common.selected_item_details_factory": {}
+            },
+            {
+                "item_lock_notification_factory@common.item_lock_notification_factory": {}
+            },
+            {
+                "root_panel@common.root_panel": {
+                    "layer": 1,
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        176,
+                        182
+                    ],
+                    "controls": [
+                        {
+                            "common_panel@common.common_panel": {}
+                        },
+                        {
+                            "chest_panel": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    {
+                                        "crab_trap_name": {
+                                            "type": "label",
+                                            "offset": [
+                                                8,
+                                                8
+                                            ],
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "text": "tile.crabbersdelight:crab_trap.name",
+                                            "localize": true,
+                                            "size": [
+                                                "90%",
+                                                "default"
+                                            ],
+                                            "color": "$title_text_color",
+                                            "layer": 2
+                                        }
+                                    },
+                                    {
+                                        "cooking_pot_grid": {
+                                            "type": "grid",
+                                            "size": [
+                                                504,
+                                                18
+                                            ],
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "grid_dimensions": [
+                                                28,
+                                                1
+                                            ],
+                                            "grid_item_template": "chest.chest_grid_item",
+                                            "collection_name": "container_items",
+                                            "controls": [
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        79,
+                                                                        8
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            1,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            2,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            3,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            4,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            5,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            6,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            7,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            8,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            9,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -11,
+                                                                        30
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                //第二行
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            10,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            11,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            12,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            13,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            14,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            15,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            16,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            17,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            18,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -173,
+                                                                        48
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },//第三行
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            19,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            20,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            21,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            22,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            23,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            24,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            25,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            26,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot0@crab_trap.input_grid_panel": {
+                                                        "grid_position": [
+                                                            27,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -335,
+                                                                        66
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                                    },
+                                    {
+                                        "hotbar_grid@common.hotbar_grid_template": {}
+                                    },
+                                    {
+                                        "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+                        },
+                        {
+                            "gamepad_cursor@common.gamepad_cursor_button": {}
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,4 +1,4 @@
-import { Block, Entity, GameMode, ItemStack, world } from "@minecraft/server";
+import { Block, Entity, GameMode, ItemStack, Player, world } from "@minecraft/server";
 import { RandomAPI } from "./RandomAPI";
 export class ItemAPI {
     /**
@@ -62,17 +62,23 @@ export class ItemAPI {
      * @param number 要清除的物品的数量。
      * @returns
      */
-    static clear(player, slot, number = 1) {
-        const inventory = player.getComponent("inventory");
+    static clear(entity, slot, number = 1) {
+        const inventory = entity.getComponent("inventory");
         const container = inventory.container;
         const itemStack = container?.getItem(slot);
         if (!container)
             return;
         if (!itemStack)
             return;
-        if (player.getGameMode() == GameMode.creative)
-            return;
+        if (entity instanceof Player) {
+            if (entity.getGameMode() == GameMode.creative)
+                return;
+        }
         const itemAmount = itemStack.amount;
+        if (itemAmount - number == 0) {
+            container.setItem(slot, undefined);
+            return;
+        }
         itemStack.amount = itemAmount - number;
         container.setItem(slot, itemStack);
     }

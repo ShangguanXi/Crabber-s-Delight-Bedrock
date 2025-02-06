@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "crabbersdelight:raw_crab"
+                  },
+                  {
+                    "type": "item",
+                    "weight": 1,
+                    "name":"crabbersdelight:raw_clawster"
+                  },
+                  {
+                    "type": "item",
+                    "weight": 1,
+                    "name":"crabbersdelight:raw_shrimp"
+                  },
+                  {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "crabbersdelight:clam"
+                  },
+                  {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:stick"
+                  },
+                  {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:kelp"
+                  },
+                  {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "crabbersdelight:can"
+                  }
+            ]
+        }
+    ]
+}

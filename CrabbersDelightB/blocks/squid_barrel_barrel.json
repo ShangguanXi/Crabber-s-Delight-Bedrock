@@ -5,7 +5,7 @@
             "identifier": "crabbersdelight:squid_barrel",
             "menu_category": {
                 "category": "items",
-                "group": "crabbersdelight:itemGroup.name.barrel"
+                "group": "farmersdelight:itemGroup.name.crate"
             }
         },
         "components": {

@@ -55,15 +55,21 @@ export class ItemAPI {
      * @param number 要清除的物品的数量。
      * @returns 
      */
-    public static clear(player: Player, slot: number, number: number = 1) {
-        const inventory = player.getComponent("inventory") as EntityInventoryComponent
+    public static clear(entity: Player| Entity, slot: number, number: number = 1) {
+        const inventory = entity.getComponent("inventory") as EntityInventoryComponent
         const container = inventory.container;
         const itemStack = container?.getItem(slot)
         
         if (!container) return;
         if (!itemStack) return;
-        if (player.getGameMode() == GameMode.creative) return;
+        if (entity instanceof Player){
+            if (entity.getGameMode() == GameMode.creative) return;
+        }
         const itemAmount = itemStack.amount;
+        if (itemAmount - number==0){
+            container.setItem(slot, undefined);
+            return
+        }
         itemStack.amount = itemAmount - number;
         container.setItem(slot, itemStack);
     }

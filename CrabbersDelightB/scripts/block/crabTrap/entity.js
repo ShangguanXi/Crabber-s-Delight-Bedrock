@@ -7,9 +7,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { world, system } from "@minecraft/server";
+import { ItemStack, world, system, BlockVolume } from "@minecraft/server";
 import ObjectUtil from "../../lib/ObjectUtil";
 import { EventAPI } from "../../lib/EventAPI";
+import { ItemAPI } from "../../lib/ItemAPI";
 const scoreboard = world.scoreboard;
 class BlockEntity {
     //获取方块实体数据
@@ -64,14 +65,136 @@ export class CrabTrapEntity extends BlockEntity {
             return;
         const entity = entityBlockData.entity;
         super.entityContainerLoot(entityBlockData, entity.typeId);
-        const { x, y, z } = entity.location;
-        const block = entityBlockData.block;
+        const chumMap = {
+            "crabbersdelight:bucket_of_clam_chum": "crabbersdelight:clam",
+            "crabbersdelight:bucket_of_clawster_chum": "crabbersdelight:raw_clawster",
+            "crabbersdelight:bucket_of_crab_chum": "crabbersdelight:raw_crab",
+            "crabbersdelight:bucket_of_shrimp_chum": "crabbersdelight:raw_shrimp"
+        };
+        const fishList = [
+            "minecraft:cod",
+            "minecraft:salmon",
+            "minecraft:tropicalfish",
+            "minecraft:pufferfish",
+        ];
+        if (!CrabTrapEntity.hasWaterNearby(entity))
+            return;
         const inventory = entity.getComponent("inventory");
-        const container = inventory.container;
+        const container = inventory?.container;
         if (!container)
             return;
         const progress = entity.getDynamicProperty("crabbersdelight:crab_trap_progress") ?? 0;
-        console.warn(entity.dimension.getBlock({ x, y, z })?.typeId, block.typeId);
+        const chumItem = container.getItem(0)?.typeId;
+        for (let i = 1; i < 28; i++) {
+            const slot = container.getSlot(i);
+            if (slot.hasItem()) {
+                const hasItem = container.getSlot(i).typeId;
+                if (hasItem == "farmersdelight:fire_0" || hasItem == "farmersdelight:cooking_pot_arrow_0") {
+                    container.setItem(i, undefined);
+                    console.warn("捕蟹笼：删除非法物品");
+                }
+            }
+        }
+        if (!chumItem || !(chumItem in chumMap) && !fishList.includes(chumItem)) {
+            CrabTrapEntity.handleEmptyChumItem(container, entity, progress);
+            return;
+        }
+        CrabTrapEntity.handleChumItemProcessing(chumItem, container, entity, progress, chumMap, fishList);
+    }
+    static hasWaterNearby(entity) {
+        const { x, y, z } = entity.location;
+        const fromLocation = { x: x - 1, y: y - 1, z: z - 1 };
+        const toLocation = { x: x + 1, y: y + 1, z: z + 1 };
+        const detectLocs = new BlockVolume(fromLocation, toLocation).getBlockLocationIterator();
+        let hasWater = 0;
+        for (const location of detectLocs) {
+            const block = entity.dimension.getBlock(location);
+            if (block?.typeId === 'minecraft:water') {
+                hasWater += 1;
+            }
+        }
+        return (hasWater + 1) / 27 === 1;
+    }
+    static handleEmptyChumItem(container, entity, progress) {
+        if (progress === 20 * 2000) {
+            CrabTrapEntity.handleLootReplacement(container, entity);
+            entity.setDynamicProperty("crabbersdelight:crab_trap_progress", 0);
+        }
+        else {
+            entity.setDynamicProperty("crabbersdelight:crab_trap_progress", progress + 1);
+        }
+    }
+    static handleLootReplacement(container, entity) {
+        for (let i = 1; i < 28; i++) {
+            const hasItem = container.getSlot(i).hasItem();
+            if (!hasItem) {
+                entity.runCommandAsync(`loot replace entity @s slot.inventory ${i} loot "crabbersdelight/gameplay/crab_trap_air"`);
+                break;
+            }
+        }
+    }
+    static handleChumItemProcessing(chumItem, container, entity, progress, chumMap, fishList) {
+        if (chumItem in chumMap) {
+            CrabTrapEntity.handleChumProcessing(container, entity, progress, chumItem, chumMap);
+        }
+        else if (fishList.includes(chumItem)) {
+            CrabTrapEntity.handleFishProcessing(container, entity, progress, chumItem);
+        }
+    }
+    static handleChumProcessing(container, entity, progress, chumItem, chumMap) {
+        if (progress >= 20 * 200) {
+            CrabTrapEntity.replaceLootAndHandleDurability(container, entity, chumItem, chumMap);
+        }
+        else {
+            entity.setDynamicProperty("crabbersdelight:crab_trap_progress", progress + 1);
+        }
+    }
+    static replaceLootAndHandleDurability(container, entity, chumItem, chumMap) {
+        for (let i = 1; i < 28; i++) {
+            const hasItem = container.getSlot(i).hasItem();
+            if (!hasItem) {
+                container.setItem(i, new ItemStack(chumMap[chumItem], 1));
+                CrabTrapEntity.handleItemDurability(container, entity);
+                break;
+            }
+        }
+        entity.setDynamicProperty("crabbersdelight:crab_trap_progress", 0);
+    }
+    static handleItemDurability(container, entity) {
+        const itemStack = container.getItem(0);
+        if (!itemStack)
+            return;
+        const durability = itemStack.getComponent('minecraft:durability');
+        if (!durability)
+            return;
+        const maxDurability = durability.maxDurability;
+        const currentDamage = durability.damage;
+        if (maxDurability > currentDamage) {
+            durability.damage += 1;
+            container.setItem(0, itemStack);
+        }
+        else {
+            container.setItem(0, new ItemStack('minecraft:bucket'));
+        }
+    }
+    static handleFishProcessing(container, entity, progress, chumItem) {
+        if (progress >= 20 * 200) {
+            CrabTrapEntity.replaceLootWithFish(container, entity, chumItem);
+        }
+        else {
+            entity.setDynamicProperty("crabbersdelight:crab_trap_progress", progress + 1);
+        }
+    }
+    static replaceLootWithFish(container, entity, chumItem) {
+        for (let i = 1; i < 28; i++) {
+            const hasItem = container.getSlot(i).hasItem();
+            if (!hasItem) {
+                entity.runCommandAsync(`loot replace entity @s slot.inventory ${i} loot "crabbersdelight/gameplay/crab_trap_${chumItem.split("minecraft:")[1]}"`);
+                ItemAPI.clear(entity, 0);
+                break;
+            }
+        }
+        entity.setDynamicProperty("crabbersdelight:crab_trap_progress", 0);
     }
 }
 __decorate([

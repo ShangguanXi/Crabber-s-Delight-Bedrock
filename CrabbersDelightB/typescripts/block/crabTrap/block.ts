@@ -48,6 +48,6 @@ export class CrabTrap extends BlockWithEntity {
         if (block.typeId!="crabbersdelight:crab_trap") return;
         const { x, y, z }: Vector3 = block.location;
         const entity = super.setBlock(args.block.dimension, { x: x + 0.5, y: y, z: z + 0.5 }, block.typeId);
-        entity.nameTag = `tile.${entity.typeId}.name`;
+        entity.nameTag = `crab_trap`;
     }
 }

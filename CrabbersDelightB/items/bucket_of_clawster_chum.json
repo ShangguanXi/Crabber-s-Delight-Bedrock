@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:durability": {
+                "max_durability": 48
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "crabbersdelight:bucket_of_clawster_chum"
+                }
+            }
+        },
+        "description": {
+            "identifier": "crabbersdelight:bucket_of_clawster_chum",
+            "menu_category": {
+                "category": "items"
+            }
+        }
+    }
+}

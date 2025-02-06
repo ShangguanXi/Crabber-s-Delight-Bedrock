@@ -2,7 +2,7 @@
     "format_version": "1.21.60",
     "minecraft:entity": {
         "description": {
-            "identifier": "crabbersdelight:crab",
+            "identifier": "crabbersdelight:raw_crab",
             "is_spawnable": true,
             "is_summonable": true,
             "is_experimental": false
@@ -41,8 +41,8 @@
                 "minecraft:breedable": {
                     "require_tame": false,
                     "breeds_with": {
-                        "mate_type": "crabbersdelight:crab",
-                        "baby_type": "crabbersdelight:crab"
+                        "mate_type": "crabbersdelight:raw_crab",
+                        "baby_type": "crabbersdelight:raw_crab"
                     },
                     "breed_items": [
                         "fish",
