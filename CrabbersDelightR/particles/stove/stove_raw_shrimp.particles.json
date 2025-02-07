@@ -51,7 +51,7 @@
         "description": {
             "basic_render_parameters": {
                 "material": "particles_alpha", 
-                "texture": "textures/items/raw_shrimp"
+                "texture": "textures/items/shrimp"
             }, 
             "identifier": "farmersdelight:stove_raw_shrimp"
         }
