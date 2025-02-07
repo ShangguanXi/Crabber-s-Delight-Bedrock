@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crabbersdelight:crab_trap"
+        },
+        "key": {
+            "n": {
+                "item": "farmersdelight:safety_net"
+            },
+            "s": {
+                "item": "minecraft:stick"
+            },
+            "w": {
+                "tag": "minecraft:wooden_slabs"
+            }
+        },
+        "pattern": [
+            "nsn",
+            "s s",
+            "www"
+        ],
+        "result": [
+            {
+                "item": "crabbersdelight:crab_trap"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -69,7 +69,7 @@ export class CrabTrapEntity extends BlockEntity {
         const fishList = [
             "minecraft:cod",
             "minecraft:salmon",
-            "minecraft:tropicalfish",
+            "minecraft:tropical_fish",
             "minecraft:pufferfish",
         ];
         if (!CrabTrapEntity.hasWaterNearby(entity)) return;
@@ -111,7 +111,7 @@ export class CrabTrapEntity extends BlockEntity {
                 hasWater += 1;
             }
         }
-        return (hasWater + 1) / 27 === 1;
+        return (hasWater + 1) >= 25;
     }
 
     static handleEmptyChumItem(container: Container, entity: Entity, progress: number): void {

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "crabbersdelight:bucket_of_crab_chum"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:cod",
+                "count":4
+            },
+            {
+                "item": "minecraft:bone_meal",
+                "count":4
+            },
+            {
+                "item": "minecraft:bucket"
+            }
+        ],
+        "result": {
+            "item": "crabbersdelight:bucket_of_crab_chum"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

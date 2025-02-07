@@ -9,7 +9,7 @@
       },
       "minecraft:icon": {
         "textures": {
-          "default": "crabbersdelight:raw_crab"
+          "default": "crabbersdelight:crab"
         }
       },
       "minecraft:tags": {

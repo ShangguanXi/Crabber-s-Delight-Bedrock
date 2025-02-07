@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "crabbersdelight:raw_crab",
+            "identifier": "crabbersdelight:crab",
             "materials": {
                 "default": "crab_default",
                 "color": "crab"
