@@ -22,7 +22,7 @@
       "identifier": "crabbersdelight:jar_of_pickles",
       "menu_category": {
         "category": "equipment",
-        "group": "minecraft:itemGroup.name.miscFood"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

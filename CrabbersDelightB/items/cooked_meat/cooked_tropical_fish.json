@@ -28,7 +28,7 @@
       "identifier": "crabbersdelight:cooked_tropical_fish",
       "menu_category": {
         "category": "equipment",
-        "group": "minecraft:itemGroup.name.cookedFood"
+        "group": "farmersdelight:itemGroup.name.cookedFood"
       }
     }
   }

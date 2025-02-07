@@ -22,7 +22,7 @@
       "identifier": "crabbersdelight:sea_pickle_juice",
       "menu_category": {
         "category": "equipment",
-        "group": "minecraft:itemGroup.name.miscFood"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

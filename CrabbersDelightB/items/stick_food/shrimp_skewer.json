@@ -22,7 +22,7 @@
       "identifier": "crabbersdelight:shrimp_skewer",
       "menu_category": {
         "category": "equipment",
-        "group": "minecraft:itemGroup.name.miscFood"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

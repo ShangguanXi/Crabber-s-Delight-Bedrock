@@ -27,7 +27,7 @@
             "identifier": "crabbersdelight:cooked_glow_squid_tentacles",
             "menu_category": {
                 "category": "equipment",
-                "group": "minecraft:itemGroup.name.cookedFood"
+                "group": "farmersdelight:itemGroup.name.cookedFood"
             }
         }
     }

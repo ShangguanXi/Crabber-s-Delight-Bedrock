@@ -27,7 +27,7 @@
       "identifier": "crabbersdelight:pufferfish_slice",
       "menu_category": {
         "category": "nature",
-        "group": "minecraft:itemGroup.name.rawFood"
+        "group": "farmersdelight:itemGroup.name.rawFood"
       }
     }
   }

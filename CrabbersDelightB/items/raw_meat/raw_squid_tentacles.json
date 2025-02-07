@@ -28,7 +28,7 @@
       "identifier": "crabbersdelight:raw_squid_tentacles",
       "menu_category": {
         "category": "nature",
-        "group": "minecraft:itemGroup.name.rawFood"
+        "group": "farmersdelight:itemGroup.name.rawFood"
       }
     }
   }

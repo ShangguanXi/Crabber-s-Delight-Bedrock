@@ -17,7 +17,7 @@
       "identifier": "crabbersdelight:clam",
       "menu_category": {
         "category": "nature",
-        "group": "minecraft:itemGroup.name.rawFood"
+        "group": "farmersdelight:itemGroup.name.rawFood"
       }
     }
   }
