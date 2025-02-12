@@ -66,3 +66,9 @@ tile.crabbersdelight:pearl_block.name=Pearl Block
 
 entity.crabbersdelight:crab.name=Crab
 item.spawn_egg.entity.crabbersdelight:crab.name=Spawn Crab
+
+
+item.crabbersdelight:bucket_of_clam_chum=Bucket Of Clam Chum
+item.crabbersdelight:bucket_of_clawster_chum=Bucket Of Clawster Chum
+item.crabbersdelight:bucket_of_crab_chum=Bucket Of Crab Chum
+item.crabbersdelight:bucket_of_shrimp_chum=Bucket Of Shrimp Chum
