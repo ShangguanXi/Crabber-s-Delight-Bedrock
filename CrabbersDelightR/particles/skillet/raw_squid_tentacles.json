@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_squid_tentacles"
             }, 
-            "identifier": "farmersdelight:skillet_raw_squid_tentacles"
+            "identifier": "crabbersdelight:skillet_raw_squid_tentacles"
         }
     }
 }

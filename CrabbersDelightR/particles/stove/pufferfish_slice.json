@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/pufferfish_slice"
             }, 
-            "identifier": "farmersdelight:stove_pufferfish_slice"
+            "identifier": "crabbersdelightstove_pufferfish_slice"
         }
     }
 }

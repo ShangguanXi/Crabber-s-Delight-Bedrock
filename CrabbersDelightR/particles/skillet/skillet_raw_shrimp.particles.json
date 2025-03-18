@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/shrimp"
             }, 
-            "identifier": "farmersdelight:skillet_raw_shrimp"
+            "identifier": "crabbersdelight:skillet_raw_shrimp"
         }
     }
 }

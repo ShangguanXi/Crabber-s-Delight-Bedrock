@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_clawster"
             }, 
-            "identifier": "farmersdelight:skillet_raw_clawster"
+            "identifier": "crabbersdelight:skillet_raw_clawster"
         }
     }
 }

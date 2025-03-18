@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/shrimp"
             }, 
-            "identifier": "farmersdelight:stove_raw_shrimp"
+            "identifier": "crabbersdelightstove_raw_shrimp"
         }
     }
 }

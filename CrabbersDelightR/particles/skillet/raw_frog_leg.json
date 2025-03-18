@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_frog_leg"
             }, 
-            "identifier": "farmersdelight:skillet_raw_frog_leg"
+            "identifier": "crabbersdelight:skillet_raw_frog_leg"
         }
     }
 }

@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_clam_meat"
             }, 
-            "identifier": "farmersdelight:skillet_raw_clam_meat"
+            "identifier": "crabbersdelight:skillet_raw_clam_meat"
         }
     }
 }

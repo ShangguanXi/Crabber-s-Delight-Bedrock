@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/pufferfish_slice"
             }, 
-            "identifier": "farmersdelight:skillet_pufferfish_slice"
+            "identifier": "crabbersdelight:skillet_pufferfish_slice"
         }
     }
 }

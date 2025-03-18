@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_crab"
             }, 
-            "identifier": "farmersdelight:skillet_raw_crab"
+            "identifier": "crabbersdelight:skillet_raw_crab"
         }
     }
 }
