@@ -103,8 +103,8 @@ export class CrabTrapEntity extends BlockEntity {
     }
     static hasWaterNearby(entity) {
         const { x, y, z } = entity.location;
-        const fromLocation = { x: x - 1, y: y - 1, z: z - 1 };
-        const toLocation = { x: x + 1, y: y + 1, z: z + 1 };
+        const fromLocation = { x: x - 5, y: y - 5, z: z - 5 };
+        const toLocation = { x: x + 5, y: y + 5, z: z + 5 };
         const detectLocs = new BlockVolume(fromLocation, toLocation).getBlockLocationIterator();
         let hasWater = 0;
         for (const location of detectLocs) {
@@ -113,7 +113,7 @@ export class CrabTrapEntity extends BlockEntity {
                 hasWater += 1;
             }
         }
-        return (hasWater + 1) >= 25;
+        return (hasWater + 1) >= 60;
     }
     static handleEmptyChumItem(container, entity, progress) {
         if (progress === 20 * 2000) {
