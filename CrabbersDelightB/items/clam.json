@@ -1,7 +1,17 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
+      "farmersdelight:cuttable": {
+        "loot": [
+          ["crabbersdelight:raw_clam_meat", 1],
+          ["crabbersdelight:pearl", 1, 0.5]
+        ],
+        "tool": {
+          "type": "tag",
+          "name": "farmersdelight:is_knife"
+        }
+      },
       "minecraft:icon": {
         "textures": {
           "default": "crabbersdelight:clam"
@@ -9,7 +19,7 @@
       },
       "minecraft:tags": {
         "tags": [
-          "farmersdelight:can_cut.tag.farmersdelight:is_knife"
+          "farmersdelight:clam"
         ]
       }
     },

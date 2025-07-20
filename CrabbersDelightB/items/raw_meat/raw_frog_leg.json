@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -12,9 +12,12 @@
           "default": "crabbersdelight:raw_frog_leg"
         }
       },
+      "farmersdelight:cookable": {
+        "result": "crabbersdelight:cooked_frog_leg"
+      },
       "minecraft:tags": {
         "tags": [
-          "farmersdelight:can_cook"
+          "farmersdelight:frog_leg"
         ]
       },
       "minecraft:use_animation": "eat",

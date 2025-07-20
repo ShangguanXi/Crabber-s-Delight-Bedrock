@@ -1,4 +1,4 @@
-pack.description=本模组根据原Java版模组蟹农乐事在遵循MIT协议的情况下进行移植,适配农夫乐事v2.0.0+
+pack.description=本模组根据原Java版模组蟹农乐事在遵循MIT协议的情况下进行移植,适配农夫乐事v4.0.0+
 pack.name=蟹农乐事
 
 item.crabbersdelight:raw_crab=螃蟹
@@ -62,6 +62,9 @@ tile.crabbersdelight:squid_barrel.name=桶装鱿鱼
 tile.crabbersdelight:glow_squid_barrel.name=桶装荧光鱿鱼
 tile.crabbersdelight:frog_leg_barrel.name=桶装青蛙腿
 tile.crabbersdelight:pearl_block.name=珍珠块
+
+tile.crabbersdelight:scute_block.name=海龟鳞甲块
+tile.crabbersdelight:sea_pickle_crate.name=箱装海泡菜
 
 entity.crabbersdelight:crab.name=螃蟹
 item.spawn_egg.entity.crabbersdelight:crab.name=螃蟹生成蛋

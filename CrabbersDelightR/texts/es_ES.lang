@@ -1,4 +1,4 @@
-pack.description=Este complemento se basa en el mod original de Java Edition Crabber’s Delight y este trabajo está licenciado bajo la licencia MIT. Para FarmersDelightv2.0.0+
+pack.description=Este complemento se basa en el mod original de Java Edition Crabber’s Delight y este trabajo está licenciado bajo la licencia MIT. Para FarmersDelightv4.0.0+
 pack.name=Crabber's Delight
 
 item.crabbersdelight:raw_crab=Cangrejo 
@@ -59,6 +59,9 @@ tile.crabbersdelight:glow_squid_barrel.name=Barril de Calamares Luminosos
 tile.crabbersdelight:frog_leg_barrel.name=Barril de Patas de Rana
 tile.crabbersdelight:nautilus_shell_block.name=Bloque de conchas nautilus
 tile.crabbersdelight:pearl_block.name=Bloque de perlas
+
+tile.crabbersdelight:scute_block.name=Scute Block
+tile.crabbersdelight:sea_pickle_crate.name=Sea Pickle Crate
 
 entity.crabbersdelight:crab.name=Cangrejo
 item.spawn_egg.entity.crabbersdelight:crab.name=Huevo generador de cangrejo

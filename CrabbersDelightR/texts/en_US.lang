@@ -1,4 +1,4 @@
-pack.description=This addon is ported based on the original Java Edition mod Crabber's Delight and this work is licensed under the MIT License. For FarmersDelightv2.0.0+
+pack.description=This addon is ported based on the original Java Edition mod Crabber's Delight and this work is licensed under the MIT License. For FarmersDelightv4.0.0+
 pack.name=Crabber's Delight
 
 item.crabbersdelight:raw_crab=Crab
@@ -63,6 +63,9 @@ tile.crabbersdelight:glow_squid_barrel.name=Glow Squid Barrel
 tile.crabbersdelight:frog_leg_barrel.name=Frog Leg Barrel
 tile.crabbersdelight:nautilus_shell_block.name=Nautilus Shell Block
 tile.crabbersdelight:pearl_block.name=Pearl Block
+
+tile.crabbersdelight:scute_block.name=Scute Block
+tile.crabbersdelight:sea_pickle_crate.name=Sea Pickle Crate
 
 entity.crabbersdelight:crab.name=Crab
 item.spawn_egg.entity.crabbersdelight:crab.name=Spawn Crab

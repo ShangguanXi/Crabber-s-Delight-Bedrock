@@ -84,6 +84,15 @@
 		},
 		"frog_leg_barrel_top": {
 			"textures": "textures/blocks/frog_leg_barrel_top"
+		},
+		"scute_block": {
+			"textures": "textures/blocks/scute_block"
+		},
+		"sea_pickle_crate_top": {
+			"textures": "textures/blocks/sea_pickle_crate_top"
+		},
+		"sea_pickle_crate_side": {
+			"textures": "textures/blocks/sea_pickle_crate_side"
 		}
 	}
 }

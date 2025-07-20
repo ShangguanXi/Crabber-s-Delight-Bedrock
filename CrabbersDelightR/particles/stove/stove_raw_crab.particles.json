@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_crab"
             }, 
-            "identifier": "crabbersdelightstove_raw_crab"
+            "identifier": "crabbersdelight:stove_raw_crab"
         }
     }
 }

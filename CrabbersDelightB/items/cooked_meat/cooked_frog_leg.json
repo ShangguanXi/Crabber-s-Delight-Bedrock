@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -15,7 +15,8 @@
       "minecraft:tags": {
         "tags": [
           "farmersdelight:cooked_seafood",
-          "crabbersdelight:cooked_seafood"
+          "crabbersdelight:cooked_seafood",
+          "farmersdelight:frog_leg"
         ]
       },
       "minecraft:use_animation": "eat",

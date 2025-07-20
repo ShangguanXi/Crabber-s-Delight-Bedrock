@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -12,9 +12,11 @@
           "default": "crabbersdelight:raw_glow_squid_tentacles"
         }
       },
+      "farmersdelight:cookable": {
+        "result": "crabbersdelight:cooked_glow_squid_tentacles"
+      },
       "minecraft:tags": {
         "tags": [
-          "farmersdelight:can_cook",
           "farmersdelight:raw_calamari",
           "crabbersdelight:raw_calamari"
         ]

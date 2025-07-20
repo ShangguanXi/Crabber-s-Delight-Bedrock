@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -12,10 +12,18 @@
           "default": "crabbersdelight:cooked_crab"
         }
       },
+      "farmersdelight:cuttable": {
+        "loot": [
+          ["crabbersdelight:crab_legs", 4]
+        ],
+        "tool": {
+          "type": "tag",
+          "name": "farmersdelight:is_knife"
+        }
+      },
       "minecraft:tags": {
         "tags": [
           "farmersdelight:cooked_seafood",
-          "farmersdelight:can_cut.tag.farmersdelight:is_knife",
           "crabbersdelight:cooked_seafood"
         ]
       },

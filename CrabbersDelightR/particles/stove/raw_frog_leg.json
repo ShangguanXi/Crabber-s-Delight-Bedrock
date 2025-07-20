@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_frog_leg"
             }, 
-            "identifier": "crabbersdelightstove_raw_frog_leg"
+            "identifier": "crabbersdelight:stove_raw_frog_leg"
         }
     }
 }
